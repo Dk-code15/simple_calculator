@@ -1,5 +1,5 @@
-from tkinter import *
-from keyboard import *
+from tkinter import *  # Import * means importing everyting from this package
+from keyboard import * 
 
 window=Tk()
 window.title("calculator")
@@ -62,7 +62,7 @@ def dele():
     return
 
 
-#define button
+#define button for user input
 bt1=Button(window,text="1",padx=40,pady=20,bg="#C0C0C0",command=lambda : click(1))
 bt2=Button(window,text="2",padx=40,pady=20,bg="#C0C0C0",command=lambda : click(2))
 bt3=Button(window,text="3",padx=40,pady=20,bg="#C0C0C0",command=lambda : click(3))
